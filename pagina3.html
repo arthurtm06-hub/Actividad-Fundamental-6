@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minerales</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+<body>
+     <style>
+        h1 {
+            float: left;
+            margin-left: 420px;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            position: relative;
+            }
+
+        body::before {
+            content: "";
+            background-image: url('texture.jpg');
+            background-repeat: repeat;
+            background-position: center;
+            background-attachment: fixed;
+            
+            opacity: 0.4; 
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: -1; 
+        }
+
+        .list-group {
+            max-width: 1100px;         
+            margin: 20px auto;        
+            border-radius: 12px;
+            overflow: hidden;
+        }
+
+        .list-group-item {
+            display: flex;     
+            align-items: flex-start;  
+            gap: 20px;                
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.85);
+        }
+        
+    </style>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home <span class="sr-only"></span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="pagina1.html">Mobs</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="pagina2.html">Estructuras</a>
+            </li>
+            <li class="nav-item" style="background-color: brown; border-radius: 5px;">
+                <a class="nav-link" href="pagina3.html"><strong>Minerales</strong></a>
+            </li>
+            </ul>
+        </div>
+    </nav>
+    
+    <h2 style="margin-top: 30px; margin-bottom: 20px; margin-left: 15px">Lista de minerales que puedes encontrar en el Nether:</h2>
+    <ul class="list-group">
+        <li class="list-group-item">
+            <img src="pl.png" alt="Glowstone" style="width: 100px; height: auto;">
+            La Piedra luminosa es un bloque emisor de luz que se encuentra en estructuras ramificadas, que se encuentra colgando de techos y voladizos en el Nether.
+        <li class="list-group-item">
+            <img src="mo_n.png" alt="Nether Gold" style="width: 100px; height: auto;">
+            La mena de oro del Nether es una mena bastante común encontrada en el Nether, y suelta pepitas de oro al ser minada.
+        <li class="list-group-item">
+            <img src="nc.png" alt="Nether Quartz" style="width: 100px; height: auto;">
+            La mena de cuarzo del Nether es una mena abundante encontrada en El Nether, y suelta cuarzo del Nether al ser minada.
+        <li class="list-group-item">
+            <img src="ad.png" alt="Ancient Debris" style="width: 100px; height: auto;">
+            Los escombros ancestrales es una mena rara que se encuentra en El Nether y es la principal fuente de fragmentos de netherita. Su alta resistencia a las explosiones la vuelve inmune a las explosiones normales. En forma de objeto, flota sobre lava y no puede ser quemada por ninguna forma de fuego.
+    </ul>
+    <script src="bootstrap.min.js"></script>
+</body>
+</html>

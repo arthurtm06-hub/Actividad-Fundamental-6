@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobs</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+<body>
+    <style>
+        h1 {
+            float: left;
+            margin-left: 420px;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            position: relative;
+            }
+
+        body::before {
+            content: "";
+            background-image: url('texture.jpg');
+            background-repeat: repeat;
+            background-position: center;
+            background-attachment: fixed;
+            
+            opacity: 0.4; 
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: -1; 
+        }
+
+        .list-group {
+            max-width: 1100px;         
+            margin: 20px auto;        
+            border-radius: 12px;
+            overflow: hidden;
+        }
+
+        .list-group-item {
+            display: flex;     
+            align-items: flex-start;  
+            gap: 20px;                
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.85);
+        }
+    </style>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home <span class="sr-only"></span></a>
+            </li>
+            <li class="nav-item" style="background-color: brown; border-radius: 5px;">
+                <a class="nav-link" href="pagina1.html"><strong>Mobs</strong></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="pagina2.html">Estructuras</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="pagina3.html">Minerales</a>
+            </li>
+            </ul>
+        </div>
+    </nav>
+    
+    <h2 style="margin-top: 30px; margin-bottom: 20px; margin-left: 15px">Lista de mobs que <strong>solo</strong> puedes encontrar en el Nether:</h2>
+    <ul class="list-group">
+        <li class="list-group-item">
+            <img src="pi.png" alt="Piglin" style="width: 100px; height: auto;">
+            Un piglin es un enemigo neutral que se encuentra en el Nether. Es hostil para los jugadores a menos que lleven al menos una pieza de armadura dorada. Se le pueden dar lingotes de oro para intercambiar por varios objetos. Empuña una espada dorada o una ballesta, y utiliza ataques cuerpo a cuerpo o a distancia, respectivamente. Los bebés piglins no crecen, son pasivos y recogen oro sin dar nada a cambio.</li>
+            <li class="list-group-item">
+            <img src="pi_b.png" alt="Brute Piglin" style="width: 100px; height: auto;">
+            Un piglin bruto es una variante hostil y más fuerte de los piglins que aparece en todo tipo de restos de bastión. A diferencia de los piglins normales, no truecan ni se retiran, y no pueden distraerse con oro. En su lugar, siempre cargan contra el jugador al verse con sus hachas doradas.</li>
+        <li class="list-group-item">
+            <img src="zp.png" alt="Zombie Piglin" style="width: 100px; height: auto;">
+            Un piglin zombificado (anteriormente llamado Zombie Pigman) es una variante no-muerta neutral del piglin que habita el Nether. Los piglins zombificados normalmente ignoran a los jugadores, pero si uno es atacado, este y todos los piglins zombificados de la zona se enfurece y atacan al agresor con sus espadas doradas.</li>    
+        <li class="list-group-item">
+            <img src="ho.png" alt="Hoglin" style="width: 100px; height: auto;">
+            Un hoglin es una multitud hostil reproductora que se encuentra en el Nether y es una fuente de chuletas de cerdo y cuero. Un hoglin ataca impulsando sus colmillos hacia arriba, lo que también puede lanzar a su objetivo a poca distancia en el aire. Los hoglins son repelidos por hongos deformados que se colocan en el mundo, así como por portales activos del Nether y anclajes de reaparición. Los bebés hoglins se comportan de forma similar, pero tienen un ataque mucho más débil (0,25 corazones) con retroceso normal, y huyen al ser golpeados.</li>
+        <li class="list-group-item">
+            <img src="st.png" alt="Strider" style="width: 100px; height: auto;">
+            Los Striders son mobs pasivos nativos del Nether. Pueden caminar sobre lava, y ser montados y montados por el jugador. Se necesita un hongo deformado en un palo para controlar un strider, similar a como un cerdo es controlado por una zanahoria en un palo.</li>
+        <li class="list-group-item">
+            <img src="bl.png" alt="Blaze" style="width: 100px; height: auto;">
+            Un blaze es un enemigo enemigo que aparece en fortalezas del Nether y es la única fuente de varas de blaze. Los blaze atacan a distancia disparando un trío de bolas de fuego o pueden atacar al jugador que se acerca demasiado con sus varas giratorias.</li>
+        <li class="list-group-item">
+            <img src="gh.png" alt="Ghast" style="width: 100px; height: auto;">
+            Los ghasts son grandes enemigos blancos flotantes y fantasmales que viven en el Nether y lanzan bolas de fuego explosivas al jugador.</li>
+        <li class="list-group-item">
+            <img src="hg.png" alt="Happy Ghast" style="width: 100px; height: auto;">
+            Un ghast feliz es un moob pasivo añadido en Chase the Skies. A diferencia de su contraparte hostil, el ghast, es pasivo hacia los jugadores y puede montarse usando un arnés.</li>
+        <li class="list-group-item">
+            <img src="sq.png" alt="Whiter Skeleton" style="width: 100px; height: auto;">
+            Los esqueletos wither son variantes negras y altas de esqueletos equipados con espadas de piedra que infligen el efecto Wither, similar a un veneno. Se encuentran exclusivamente en fortalezas del Nether y son la única fuente de cráneos de esqueletos wither, así como la única fuente renovable de carbón.</li>
+        <li class="list-group-item">
+            <img src="ma_c.png" alt="Magma Cube" style="width: 100px; height: auto;">
+            Un cubo de magma es un mob hostil que se encuentra en el Nether. Un cubo de magma se comporta de forma similar a un slime, pero es ignífugo, salta más alto y con menos frecuencia, y causa más daño.</li>
+
+    </ul>
+    <script src="bootstrap.min.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estructuras</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+<body>
+     <style>
+        h1 {
+            float: left;
+            margin-left: 420px;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            position: relative;
+            }
+
+        body::before {
+            content: "";
+            background-image: url('texture.jpg');
+            background-repeat: repeat;
+            background-position: center;
+            background-attachment: fixed;
+            
+            opacity: 0.4; 
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: -1; 
+        }
+
+        .list-group {
+            max-width: 1100px;         
+            margin: 20px auto;        
+            border-radius: 12px;
+            overflow: hidden;
+        }
+
+        .list-group-item {
+            display: flex;     
+            align-items: flex-start;  
+            gap: 20px;                
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.85);
+        }
+
+    </style>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home <span class="sr-only"></span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="pagina1.html">Mobs</a>
+            </li>
+            <li class="nav-item" style="background-color: brown; border-radius: 5px;">
+                <a class="nav-link" href="pagina2.html"><strong>Estructuras</strong></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="pagina3.html">Minerales</a>
+            </li>
+            </ul>
+        </div>
+    </nav>
+    
+    <h2 style="margin-top: 30px; margin-bottom: 20px; margin-left: 15px">Lista de estructuras que puedes encontrar en el Nether:</h2>
+    <ul class="list-group">
+        <li class="list-group-item">
+            <img src="nf.png" alt="Nether Fortress" style="width: 100px; height: auto;">
+            Las fortalezas del Nether son grandes estructuras tipo castillo compuestas de ladrillos del Nether. Esta estructura suele encontrarse cruzando mares de lava o excavando túneles a través del netherrack.
+Esta estructura es el único lugar donde aparecen blazes y esqueletos wither, haciendo que las fortalezas sean la puerta de entrada a ambos jefes del juego: el dragón del End y el Wither. Las fortalezas también contienen generadores de monstruos de Blaze, así como pequeñas granjas de verrugas del Nether donde se puede obtener verrugas del Nether. Las fortalezas del Nether se pueden encontrar en todos los biomas del Nether.
+        <li class="list-group-item">
+            <img src="fe.png" alt="Nether Fossil" style="width: 100px; height: auto;">
+            Los fósiles del Nether son estructuras compuestas por bloques óseos. Tienen 14 diseños diferentes. A diferencia de los fósiles del Overworld, el mineral de carbón no se genera dentro de estos fósiles. Esta estructura se genera exclusivamente dentro de los biomas de los valles de arena del alma. Los fósiles del Nether a veces se generan con un ghast seco a su lado.
+        <li class="list-group-item">
+            <img src="br.png" alt="Bastion Remnant" style="width: 100px; height: auto;">
+            Los restos de los bastiones son grandes fortificaciones hechas de piedra negra, ladrillos de piedra negra y basalto. Dentro de estas estructuras se pueden encontrar una gran cantidad de bloques de oro y cofres de botín. Se generan en cuatro variantes distintas, cada una con su propia estructura y botín únicos. Estas estructuras están habitadas por piglins y brutos piglins, y en ciertas variantes también por hoglins. Estas estructuras se generan dentro de cualquier bioma del Nether excepto en los deltas de basalto.
+        <li class="list-group-item">
+            <img src="rp.png" alt="Ruined Portal" style="width: 100px; height: auto;">
+            Una estructura que contiene lo que parece ser un portal del Nether destruido y varios tipos de materiales de piedra o piedra negra, al generar en el Overworld o el Nether, respectivamente. El Netherrack se genera en el suelo alrededor del portal, y un cofre que contiene botín se genera con la estructura. Estas estructuras pueden encontrarse en cualquier bioma del Overworld y del Nether.
+    </ul>
+    <script src="bootstrap.min.js"></script>
+</body>
+</html>
